@@ -16,9 +16,24 @@
     white-space: normal;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
+/* Set width on the form input elements since they're 100% wide by default 
 input,
 select,
 textarea {
     max-width: 280px;
+}
+*/
+.editor-field {
+    border: 1px solid #4cff00;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -khtml-border-radius: 3px;
+    background: #ff0000 !important;
+    outline: none;
+    height: 24px;
+    width: 120px;
+    color: #00ff90;
+    font-size: 14px;
+    font-family: Tahoma;
 }

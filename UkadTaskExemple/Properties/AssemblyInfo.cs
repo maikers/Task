@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется следующим образом
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных с этой сборкой.
-[assembly: AssemblyTitle("UkadTask")]
+[assembly: AssemblyTitle("UkadTaskExemple")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UkadTask")]
+[assembly: AssemblyProduct("UkadTaskExemple")]
 [assembly: AssemblyCopyright("© , 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для ID библиотеки типов typelib, если этот проект видим для COM
-[assembly: Guid("85aad233-5b06-499c-90b1-333d83a1dc48")]
+[assembly: Guid("e4d04bd0-a448-4d56-aaaa-d4f439a5ee70")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

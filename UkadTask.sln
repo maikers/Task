@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkadTask", "UkadTask\UkadTask.csproj", "{21D1C9ED-F976-4A5F-99CD-19EEA8AF4E3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCalculate", "TaskCalculate\TaskCalculate.csproj", "{39902F7F-EEFD-45BF-9485-582F4701721A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkadTaskExemple", "UkadTaskExemple\UkadTaskExemple.csproj", "{07CD80AA-FBAA-4201-8782-F7DC7FBC1805}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21D1C9ED-F976-4A5F-99CD-19EEA8AF4E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21D1C9ED-F976-4A5F-99CD-19EEA8AF4E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21D1C9ED-F976-4A5F-99CD-19EEA8AF4E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21D1C9ED-F976-4A5F-99CD-19EEA8AF4E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39902F7F-EEFD-45BF-9485-582F4701721A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39902F7F-EEFD-45BF-9485-582F4701721A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39902F7F-EEFD-45BF-9485-582F4701721A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39902F7F-EEFD-45BF-9485-582F4701721A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CD80AA-FBAA-4201-8782-F7DC7FBC1805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CD80AA-FBAA-4201-8782-F7DC7FBC1805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CD80AA-FBAA-4201-8782-F7DC7FBC1805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CD80AA-FBAA-4201-8782-F7DC7FBC1805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

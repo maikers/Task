@@ -1,0 +1,35 @@
+﻿@model IEnumerable<UkadTask.Models.UrlAndTime>
+@{
+    ViewBag.Title = "Home Page";
+}
+<p><h1>Enter the url site,press enter and please waite     </h1></p>
+
+    @using (Html.BeginForm("Calculate", "Home", FormMethod.Post))
+    {  
+    <input type="text" name="url" />
+        
+    }
+
+    @if (ViewBag.Timer != null)
+    {
+        <style>
+        </style>
+        <table class="table-striped">
+            <tr>
+
+                <th><h1>Url site </h1></th>
+                <th><h1>Time response</h1></th>
+            </tr>
+
+            @foreach (var a in Model)
+            {
+
+                <tr>
+
+                    <td> <h1>@a.Url</h1> </td>
+                    <td> <h1>@a.Time sec</h1> </td>
+                </tr>
+            }
+
+        </table>
+    }
